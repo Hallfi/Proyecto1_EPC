@@ -1,0 +1,11 @@
+    LDAA #CONSTANTE
+    LDAA VARIABLE
+    BEQ     ETIQUETA
+    COMPA
+    LDAA
+    MUL 25,X
+    LDAA #1789
+    BEQ ETIQUETA
+LDAA #$17
+    LDAA #$1FFFF 
+
